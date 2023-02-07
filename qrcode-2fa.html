@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="color-scheme" content="dark light">
+		<link rel="icon" href="icons/house.png" type="image/icon type">
+		<link rel="stylesheet" href="css/style.css" type="text/css">
+        <link rel="stylesheet" href="css/checkmark.css" type="text/css">
+		<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@600&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap" rel="stylesheet">
+		<title>HiOS | Authentication-qr</title>
+	</head><br>
+	<body><br><br><center>
+        <div class="translucentBox">
+            <h1 class="blue-h2">2-Factor Authentication</h1>
+            <img src="https://cdn-icons-png.flaticon.com/512/9359/9359442.png" width="100">
+            <h2 class="headingHome">How to login securely using the QR Code</h2>
+            <div style="margin: 0 auto;text-align: left;width: 450px;">
+                <ol class="paraHome">
+                    <li>Scan the code below on your device</li>
+                    <li>Login with your THCAccount, and enter the code shown below.</li>
+                    <li>Once entered, click the <strong>Done</strong> button below.</li>
+                </ol><br><center>
+                </div>
+                <img src="pics/2fa-qr.png" width="200" class="roundedImage"><br><br>
+            <div class="offerBox2">
+                <h2 class="headingHome">Code:</h2>
+                <p id="threedigit"></p>
+                <a href="loggedin.html"><button class="doneButton">Done</button></a><br>
+            </div></center>
+            <br>
+            <script>
+                var threedigitsrandom = Math.floor(100 + Math.random() * 900);
+                document.getElementById("threedigit").innerHTML = threedigitsrandom;
+                </script>
+        </div>
+    <br>
+    <div class="translucentBox">
+        <a href="2fa.html"><img src="icons/previous.png" width="100"></a>
+        <p class="paraHome">Back</p>
+    </div>
+</center>
+		<center><p id="smallpara">Copyright © Worst Eastern by The Highland Cafe(tm) 2022. All Rights Reserved.</p></center><br>
+		<!Please note, to access staff portal after version 1.1.7, you have to exit fullscreen and go back to the HiOS(tm) Launcher and access the staffportal from there;>
+	</body>
+</html>

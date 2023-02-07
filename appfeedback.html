@@ -1,0 +1,93 @@
+	<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="color-scheme" content="dark light">
+	<link rel="icon" href="icons/house.png" type="image/icon type">
+	<link rel="stylesheet" href="css\style.css" type="text/css">
+	<link rel="stylesheet" href="css/nav.css" type="text/css" />
+	<script src="scripts/nav.js"></script>
+	<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@600&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,0,0" />
+	<title>HiOS | App Feedback</title>
+	<script>
+		function showComplaintsDiv() {
+			document.getElementById('appFeedback').style.display = "none";  //empty the value
+			document.getElementById('complaints').style.display = "block";
+			document.getElementById('feedbackActive').style.display = "none";
+			document.getElementById('complaintsActive').style.display = "block";
+		}
+
+		function showFeedbackDiv() {
+			document.getElementById('appFeedback').style.display = "block";  //empty the value
+			document.getElementById('complaints').style.display = "none";
+			document.getElementById('feedbackActive').style.display = "block";
+			document.getElementById('complaintsActive').style.display = "none";
+		}
+	</script>
+</head><br>
+	<body><center>
+	<div id="navBox">
+		<div id="mySidenav" class="sidenav">
+			<a href="javascript:void(0)" class="closebtn material-symbols-rounded" onclick="closeNav()">close</a>
+			<a href="home.html"><span class="material-symbols-rounded navIcon">home</span>&nbsp;Home</a>
+			<a href="restaurant.html"><span class="material-symbols-rounded navIcon">restaurant</span>&nbsp;Restaurants</a>
+			<a href="offers.html"><span class="material-symbols-rounded navIcon">auto_awesome</span>&nbsp;Offers</a>
+			<a href="hotelactivities.html"><span class="material-symbols-rounded navIcon">hotel</span>&nbsp;Your Stay</a>
+			<a href="help-more.html"><span class="material-symbols-rounded navIcon">help</span>&nbsp;Help & More</a>
+			<a href="appfeedback.html" class="selected"><span class="material-symbols-rounded navIcon">reviews</span>&nbsp;Send Feedback</a>
+			<hr class="seperator" />
+			<a href="index.html" class="signOutButton"><span class="material-symbols-rounded navIcon">logout</span>&nbsp;Sign Out</a>
+		</div>
+		&nbsp;&nbsp;&nbsp;<span style="font-size:30px;cursor:pointer" onclick="openNav()"><span class="material-symbols-rounded menu">menu</span> &nbsp; Send Feedback</span>
+	</div>
+	<br /><br />
+	<div class="translucentBox">
+		<div id="feedbackActive" style="display:block">
+			<br><button class="navButtonInactive" onClick="showFeedbackDiv()">Send Feedback</button><br><br><button class="navButton" onClick="showComplaintsDiv()">Complain</button><br><br>
+		</div>
+		<div id="complaintsActive" style="display:none">
+			<br><button class="navButton" onClick="showFeedbackDiv()">Send Feedback</button><br><br><button class="navButtonInactive" onClick="showComplaintsDiv()">Complain</button><br><br>
+		</div>
+	</div>
+	<br>
+	<div class="translucentBox">
+		<div id="appFeedback" style="display:block">
+			<center>
+				<h1 class="blue-h2">App Feedback</h1><br>
+				<img src="https://cdn-icons-png.flaticon.com/512/2546/2546749.png" width="100">
+				<p id="para">Have any feedback on HiOSUnified that you would like to share with us? Please fill in the forms below :)</p><br>
+				<div class="halfOffer halfFeedback container">
+					<h1 class="blue-h2">General Feedback</h1>
+					<img src="https://cdn-icons-png.flaticon.com/512/1208/1208754.png" width="100">
+					<p id="para">Fancy giving our software some general feedback? Then please fill in the form below!</p>
+					<iframe class="roundedImage" src="https://docs.google.com/forms/d/e/1FAIpQLSdt40E-D8WHqnvFp8B5AFTk2yK7xCEFrunE6lDbuEvYoTrMQQ/viewform?embedded=true" width="360" height="600" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+				</div>
+				<div class="halfOffer halfFeedback container">
+					<h1 class="blue-h2">Bug Report</h1>
+					<img src="https://cdn-icons-png.flaticon.com/512/3067/3067396.png" width="100" />
+					<p id="para">Have you noticed a bug in HiOSUnified ? Then please fill in the form below and we'll see to it ASAP!</p>
+					<iframe class="roundedImage" src="https://docs.google.com/forms/d/e/1FAIpQLSeP5vjhqfapr854dS6N_sltLmeSXECDjbOz3VO0r5-_GieDhA/viewform?embedded=true" width="360" height="600" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+				</div>
+				<div class="clear"></div>
+				<br>
+		</div>
+		<div id="complaints" style="display:none">
+			<center>
+				<h1 class="blue-h2">Complaints</h1><br>
+				<img src="https://cdn-icons-png.flaticon.com/512/1027/1027619.png" width="100">
+				<p id="para">
+					Wanting to complain for something unsatisfactory you experienced from The Highland Cafe(tm)? <br>
+					We'd rather you didn't, but if you are being persistant about it, please fill in the form below. :(
+				</p><br>
+				<iframe class="roundedImage" src="https://docs.google.com/forms/d/e/1FAIpQLSeHXG6XZo0qHtU57Y5IYeqpI44eEUsHVAYRRMVZWL8O1UathQ/viewform?embedded=true" width="350" height="600" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+				<br>
+		</div>
+		<br>
+		<a href="appfeedback.html#"><img src="buttons/scrolltop.bmp" class="roundedImage"></a>
+	</div>
+	<br><br>
+	<p id="smallpara">Copyright © The Highland Cafe(tm) Ltd. 2021. All Rights Reserved.</p>
+</center>
+	</body>
+</html>
