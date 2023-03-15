@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&display=swap');
 
 html {
 	/*background-color: #FCFCFF;*/
@@ -28,7 +28,7 @@ body {
 .navButton {
 	height: 60px;
 	width: 200px;
-	font-family: 'Space Grotesk', sans-serif;
+	font-family: 'DM Sans', sans-serif;
 	font-size: 20px;
 	background-color: #187bdc;
 	color: white;
@@ -39,7 +39,7 @@ body {
 .navButtonInactive {
 	height: 60px;
 	width: 200px;
-	font-family: 'Space Grotesk', sans-serif;
+	font-family: 'DM Sans', sans-serif;
 	font-size: 20px;
 	background-color: #8791a5;
 	color: grey;
@@ -51,7 +51,7 @@ body {
 .doneButton {
 	height: 60px;
 	width: 200px;
-	font-family: 'Space Grotesk', sans-serif;
+	font-family: 'DM Sans', sans-serif;
 	font-size: 20px;
 	background-color: #187bdc;
 	color: white;
@@ -221,7 +221,7 @@ body {
 	/*float: right;*/
 	height: 30px;
 	width: 100px;
-	font-family: 'Space Grotesk', sans-serif;
+	font-family: 'DM Sans', sans-serif;
 	font-size: 15px;
 	background-color: #26abff;
 	color: white;
@@ -238,7 +238,7 @@ body {
 	/*float: right;*/
 	height: 30px;
 	width: 100px;
-	font-family: 'Space Grotesk', sans-serif;
+	font-family: 'DM Sans', sans-serif;
 	font-size: 15px;
 	background-color: #26abff;
 	color: white;
@@ -356,7 +356,7 @@ body {
 .loginText {
 	font-size: 20px;
 	font-weight: 900;
-	font-family: 'Space Grotesk', sans-serif;
+	font-family: 'DM Sans', sans-serif;
 }
 
 /*login button*/
@@ -365,7 +365,7 @@ body {
 	/*float: right;*/
 	height: 50px;
 	width: 150px;
-	font-family: 'Space Grotesk', sans-serif;
+	font-family: 'DM Sans', sans-serif;
 	font-size: 15px;
 	background-color: #187bdc;
 	color: white;
@@ -385,7 +385,7 @@ body {
 	/*float: right;*/
 	height: 50px;
 	width: 150px;
-	font-family: 'Space Grotesk', sans-serif;
+	font-family: 'DM Sans', sans-serif;
 	font-size: 15px;
 	background-color: #86dc3d;
 	color: black;
@@ -418,12 +418,12 @@ body {
 
 .blue-h2 {
 	color: #dde0fe;
-	font-family: 'Space Grotesk', sans-serif;
+	font-family: 'DM Sans', sans-serif;
 }
 
 .blue-h3 {
 	color: #dde0fe;
-	font-family: 'Space Grotesk', sans-serif;
+	font-family: 'DM Sans', sans-serif;
 }
 
 /*NEW HEADINGS FROM DECEMBER 2022*/
@@ -432,7 +432,7 @@ body {
 	color: transparent;
 	-webkit-background-clip: text;
 	background-clip: text;
-	font-family: 'Space Grotesk', sans-serif;
+	font-family: 'DM Sans', sans-serif;
 	font-size: 40px;
 }
 
@@ -441,7 +441,7 @@ body {
 	color: transparent;
 	-webkit-background-clip: text;
 	background-clip: text;
-	font-family: 'Space Grotesk', sans-serif;
+	font-family: 'DM Sans', sans-serif;
 	font-size: 30px;
 }
 
@@ -459,7 +459,7 @@ body {
 	text-align: left;
 	/*color: black;*/
 	background-color: #187bdc;
-	font-family: 'Space Grotesk', sans-serif;
+	font-family: 'DM Sans', sans-serif;
 }
 
 .seperator {
