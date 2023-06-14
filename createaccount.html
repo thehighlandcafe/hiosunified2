@@ -1,0 +1,59 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="color-scheme" content="dark light">
+		<link rel="icon" href="icons/house.png" type="image/icon type">
+		<link rel="stylesheet" href="css/style.css" type="text/css">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
+		<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@600&display=swap" rel="stylesheet">
+		<title>HiOS | Create Account</title>
+		<script>
+			function thanks() {
+				window.location.href = "thanks.html";
+			}
+		</script>
+	</head>
+	<body>
+	<center>
+                        <div class="translucentBox joinTop">
+                            <div class="container full joinTop">
+					<h1 class="headingHome"><strong>Create Your THCAccount<br></strong></h1><br>
+						<img src="https://cdn-icons-png.flaticon.com/512/7887/7887065.png" width="100">
+							<p class="paraHome">Fill in your details below, do the Captcha, then tap Sign-Up.<br></p>
+							<br>
+                    </div>
+                <div class="halfOffer halfFeedback container joinMiddle">
+					<form name="signupForm">
+					<p class="loginText">First Name *</p>
+					<input id="usernameBox" id="firstname" required></input>
+					<br><br><p class="loginText">Surname *</p>
+					<input id="usernameBox" id="surname" required></input>
+					<br><br><p class="loginText">Date of Birth *</p>
+					<input id="usernameBox" type="date" id="dob" required></input><br><br>
+				</div>
+						<div class="halfOffer halfFeedback container joinMiddle">
+								<p class="loginText">Email Address *</p>
+								<input id="usernameBox" required></input><br><br>
+								<p class="loginText">Password *</p>
+								<input id="passwordBox" type="password" required></input><br><br>
+								<p class="loginText">Confirm Password *</p>
+								<input id="passwordBox" type="password" required></input><br><br>
+						</div>
+                        <div class="clear"></div>
+					<div class="container full joinBottom">
+							<p class="loginText">Enter the numbers seen below.</p>
+								<img class="roundedImage" src="pics/captcha.png" width="200"><br>
+								<input id="captchaBox" required></input><br>
+							</form><br>
+							<input type="submit" id="loginButton" value="Sign-Up" onclick="thanks()">
+					</div>
+					</div>
+                    <div class="translucentBox joinBottom">
+						<a href="index.html"><img src="icons/previous.png" width="100"></a>
+						<p class="paraHome">Quit</p></div><br>
+		<center><p id="smallpara">Copyright © The Highland Cafe(tm) Ltd. 2023. All Rights Reserved.</p><a href="appfeedback_sandboxed.html"><p id="smallpara" style="float: right;" style="display: inline;">Send Feedback</p></a></center><br>
+		<!Please note, to access staff portal after version 1.1.7, you have to exit fullscreen and go back to the HiOS(tm) Launcher and access the staffportal from there;>
+	</body>
+</html>
